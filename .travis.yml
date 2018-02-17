@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: g67hi9mdYJ0M0MyjJpiBac5lr/ptOICk7mkc+uMsrnIytV/SPSH5CNL0IfnoLcK6xoHQl0sudrp/nMcmXkNQRea0SiVgLLqS0kYrAdLdpyk33XlKo39Rd5rh6tpbIPrm1tklRlug9KVP8mqXuaoGyS8QzdQddgaTyfhKNeD71jvIeyyh2g/65NXrMAmzGzH8XtzOwJfXpRtsqHAcBScIyFX86ln8x3mGYwNeXSsAsiVaX6Mw3CEnO9KDMqcakYtSexSUoTeyGhLB6UQRwvgGGtTNPg5m+9WnoDdrEh4yv9xQmy5i0ddEUn7hvI711U5xk5hLnKl9ETHSj0Bhk3BPeW4mU/Mj4k6CV9KQxDDmfkXXji3H/pIWh32PQySjz4qU77887dQu6k7TEFHjOWdF+5017OQeqyQ8mv0IyqCW92HIsGIPuothczNHWmgy8pAB8/x/pYseK0wZFDhoLpshyUy7rQn+FTrOaP7iDD4ZoRwLH8Gpkrj+Biy+yDKKbC7G8JJKtpDI3+/Xr/Zu/tMYsPaQOL7+1pvNW2lQx0TJ5aJKosRMANQeccd045aMm1oaO/2REyL1MZaG4Oyw8/akfHxs6KhLMcwLhORD4FZj2ozL6y76AsHmv/lVvGN9Gmzkrw67vkAJFihWtoioegOaETo/Lk7l/CDhduSGaZGRLbM=
+  app: https://radiant-waters-83396.herokuapp.com/
+  on:
+    repo: preetha5/node-shopping-list-integration-tests
+    branch: tests-for-recipes
