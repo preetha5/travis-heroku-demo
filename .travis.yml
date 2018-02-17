@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: oTzkbeWQHnZ7OAnoqlUr8si3uupxjUw1UCLo5ACiSfaTuZ4RxNRVmklxICA4lwxZ6/XmKuJE6hrl+0pkiWBvF2SMhxCGgLcFrMIHiXTGqJJK6T4dtyV1e0VxnsMpAn2BSM2XwWjIeEmaOE9VjHhbJM/7B4Sf0t4jlZLd2T72Ly3BzN0sm+GFyJjP1VaZBmOR+mbFH7pUBfRnKaqGNdpu/BP852wGtOZ0RpxE2lBu+XqA5dzOqNQhD8XVWPnrLuBJgZTdwOL6ocP/U8xs2PNVHOf3QCMeOm8gzHwezoVGDTFZzlgcu1b3zfXdzB68rFYbv431zQcUYtcy8gYXXnk7xoES4vqXiv2kg/HPa2XSJvD2GWqOeeJ+Qlr2DVInmZHbxpUhMiS28NF98kXPSFvKjDhsZTpOQpxMTxLDxE6AUe5Rm+Rmh824/eD22mkhtGw4tRFwBx3dxttW+p2yUOGhyn8dL8JzxEYMwI3cDwaRytqNfWvreluWUGuyasm1HKQeKC8LORdeGFdUNyEEl96lIguYgbNTgNhMeb3vh2mcrvc1dctCoskZGbbiCCsEY0IDZStoKzmCdqDY68PAgn//OL/IW/46howSP81EeA72gqABumNSkQkdckw3mTGmPUPTlFbitcoMQeWiKzML2Q0qe3nbKo7Ls5pPR6FIavzp6Sc=
+  app: https://agile-dawn-68580.herokuapp.com/
+  on:
+    repo: preetha5/travis-heroku-demo
+    branch: tests-for-recipes
